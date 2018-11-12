@@ -1,0 +1,4 @@
+g++ alit4.cpp -o ali   -I /usr/include/mysql -L /usr/lib/aarch64-linux-gnu -lmysqlclient -lpthread -lz -lm -lrt -ldl
+
+
+g++ -ggdb -O3 micocatt4.cpp -o micocat `pkg-config --cflags --libs opencv`
